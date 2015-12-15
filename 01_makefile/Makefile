@@ -2,7 +2,9 @@
 # This application /should/ run, but is not intended to be actually used
 # Each step exists to show a stage of the usual (hopefully automated) build pipeline.
 
-CFLAGS=-std=c11 -O0 -g
+CFLAGS=-std=c11
+#CFLAGS=-std=c11 -Os		# Enable optimization
+#CFLAGS=-std=c11 -g			# Enable debug symbols
 LDFLAGS=-lc -lgcc -lnosys 
 
 all: assemble compile link disassemble
@@ -17,7 +19,7 @@ compile: main.c
 
 link: compile
 	@echo Linking main.o -> a.out, map output to main.map
-	arm-none-eabi-ld -Tefm32gg.ld -Map=main.map main.o
+	arm-none-eabi-ld -Tefm32gg.ld -Map=main.map --gc-sections main.o
 
 real-link: compile
 	@echo Linking main.o against standard libraries using the gcc linker passthrough
@@ -30,3 +32,4 @@ disassemble: link
 clean:
 	@echo Cleaning directory
 	rm *.o *.s *.dis *.out *.map
+	
