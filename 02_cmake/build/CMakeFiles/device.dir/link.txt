@@ -1,0 +1,2 @@
+/Users/ryan/.env/gcc-arm-none-eabi-4_9-2015q1/bin/arm-none-eabi-ar cq libdevice.a  CMakeFiles/device.dir/efm32-base/device/EFM32GG/Source/GCC/startup_efm32gg.S.obj CMakeFiles/device.dir/efm32-base/device/EFM32GG/Source/system_efm32gg.c.obj
+/Users/ryan/.env/gcc-arm-none-eabi-4_9-2015q1/bin/arm-none-eabi-ranlib libdevice.a

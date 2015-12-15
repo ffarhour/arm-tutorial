@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ryan/projects/efm32gg-stk3700-tutorial/02_cmake/efm32-base/device/EFM32GG/Source/GCC/startup_efm32gg.S
+
