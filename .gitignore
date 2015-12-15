@@ -34,3 +34,8 @@
 *.out
 *.map
 *.s
+CMakeFiles/*
+CMakeFiles
+yotta_*
+build
+

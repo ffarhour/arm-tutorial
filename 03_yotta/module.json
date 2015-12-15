@@ -1,0 +1,12 @@
+{
+  "name": "yotta-test",
+  "version": "0.0.0",
+  "bin": "./source",
+  "private": true,
+  "description": "Yotta example",
+  "author": "Ryan Kurte",
+  "license": "MIT",
+  "dependencies": {
+    "mbed-hal-efm32gg": "^1.0.0"
+  }
+}

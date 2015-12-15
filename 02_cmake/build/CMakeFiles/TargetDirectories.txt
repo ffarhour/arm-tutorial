@@ -1,8 +1,0 @@
-/Users/ryan/projects/efm32gg-stk3700-tutorial/02_cmake/build/CMakeFiles/reset.dir
-/Users/ryan/projects/efm32gg-stk3700-tutorial/02_cmake/build/CMakeFiles/erase.dir
-/Users/ryan/projects/efm32gg-stk3700-tutorial/02_cmake/build/CMakeFiles/flash.dir
-/Users/ryan/projects/efm32gg-stk3700-tutorial/02_cmake/build/CMakeFiles/device.dir
-/Users/ryan/projects/efm32gg-stk3700-tutorial/02_cmake/build/CMakeFiles/debug-server.dir
-/Users/ryan/projects/efm32gg-stk3700-tutorial/02_cmake/build/CMakeFiles/debug.dir
-/Users/ryan/projects/efm32gg-stk3700-tutorial/02_cmake/build/CMakeFiles/efm32-test.dir
-/Users/ryan/projects/efm32gg-stk3700-tutorial/02_cmake/build/CMakeFiles/emlib.dir

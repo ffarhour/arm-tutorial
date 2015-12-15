@@ -1,0 +1,7 @@
+device EFM32GG990F1024
+h
+loadbin build/efm32gg-stk-gcc/source/yotta-test.bin, 0x00000000
+verifybin build/efm32gg-stk-gcc/source/yotta-test.bin, 0x00000000
+r
+g
+qc

@@ -11,7 +11,7 @@
 cmake_minimum_required(VERSION 2.8.4)
 
 # Set efm32-base project location
-set(BASE_LOCATION ./efm32-base)
+set(BASE_LOCATION ${CMAKE_CURRENT_SOURCE_DIR}/efm32-base)
 
 # Set the compiler (must be prior to project setup)
 include(${BASE_LOCATION}/toolchain/arm-gcc.cmake)
