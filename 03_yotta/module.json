@@ -4,8 +4,8 @@
   "bin": "./source",
   "private": true,
   "description": "Yotta example",
-  "author": "Ryan Kurte",
-  "license": "MIT",
+  "author": "Ryan Kurte - Edited by Farmehr Farhour",
+  "license": "Apache-2.0",
   "dependencies": {
     "mbed-hal-efm32gg": "^1.0.0"
   }
